@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Smoke test" verbose="1" >
+    <listeners>
+        <listener class-name="org.testing.framework.utils.TestListener"/>
+    </listeners>
+    <test name="Verification of Estimate Summary Page">
+        <classes>
+            <class name="org.testing.framework.tests.VerificationOfEstimateSummaryTest"/>
+        </classes>
+    </test>
+</suite>
